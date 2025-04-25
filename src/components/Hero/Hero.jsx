@@ -14,7 +14,7 @@ function Hero() {
               Full Stack Developer
             </span>
             <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-              I’m Kshitij, a passionate MERN Stack Engineer with a background from BCA. I specialize in building dynamic and responsive web applications using MongoDB, Express.js, React, and Node.js. My experience spans end-to-end development, ensuring seamless integration and optimal performance. I thrive on creating innovative solutions and enhancing user experiences.
+            Hi, I'm Kshitij, a MERN Stack developer with a BCA background. I have hands-on experience in building responsive web apps using MongoDB, Express.js, React, and Node.js. I enjoy turning ideas into simple, smooth, and user-friendly websites.
             </p>
             <a
               href={kshitijResume}

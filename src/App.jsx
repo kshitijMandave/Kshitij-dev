@@ -1,5 +1,7 @@
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
+import Projects from './components/Projects/Projects'
+import Technologies from './components/Technologies/Technologies'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <div className="container mx-auto px-6">
         <Navbar/>
         <Hero/>
+        <Technologies/>
+        <Projects/>
       </div>
     </div>
     
