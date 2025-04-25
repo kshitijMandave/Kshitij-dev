@@ -3,9 +3,7 @@ import kshitijProfile from "../../images/Kshitij-Img.webp"
 function Hero() {
   return (
     <div className="pb-4 lg:mb-36">
-      <div className="flex flex-wrap lg:flex-row-reverse">
-        
-        
+      <div className="flex flex-col-reverse lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start mt-10">
             <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl">
@@ -25,6 +23,7 @@ function Hero() {
             </a>
           </div>
         </div>
+        
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <img
@@ -34,9 +33,9 @@ function Hero() {
             />
           </div>
         </div>
-
       </div>
-    </div>
+</div>
+
   );
 }
 
