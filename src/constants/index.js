@@ -27,7 +27,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Near Grampanchayat, Lawari-Umari, Tah:Sakoli, Dist Bhandara",
+  address: "Sakoli, Dist Bhandara - 441802 (MH)",
   phoneNo: "7038342551",
   email: "kshitij.mandwe@gmail.com",
 };
