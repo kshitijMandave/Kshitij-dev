@@ -1,6 +1,7 @@
 import kshitijProfile from "../../images/Kshitij-Img.webp";
 import kshitijResume from "../../components/Hero/Kshitij_Mandave.pdf";
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 const containerVariants = {
   hidden: {},
@@ -53,26 +54,39 @@ function Hero() {
             animate="visible"
           >
             <motion.h2
-              className="pb-2 text-4xl tracking-tighter lg:text-8xl"
+              className="pb-2 mb-5 text-4xl tracking-tighter lg:text-8xl"
               variants={textVariants}
             >
               Kshitij Mandave
             </motion.h2>
-            <motion.span
-              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
-              variants={textVariants}
-            >
-              Full Stack Developer
-            </motion.span>
-            <motion.p
+
+            {/* Typing animation */}
+            <div className="relative bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
+              <TypeAnimation
+                sequence={[
+                  'Full Stack Developer', 2000,
+                  'React Developer', 2000,
+                  'JavaScript Developer', 2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+              <span className="absolute -right-2 animate-blink text-stone-400 text-3xl">
+                |
+              </span>
+            </div>
+
+            {/* No motion on paragraph now */}
+            <p
               className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-center lg:text-left"
-              variants={textVariants}
             >
               Hi, I'm Kshitij, a MERN Stack developer with a BCA background. I
               have hands-on experience in building responsive web apps using
               MongoDB, Express.js, React, and Node.js. I enjoy turning ideas
               into simple, smooth, and user-friendly websites.
-            </motion.p>
+            </p>
+
             <motion.a
               href={kshitijResume}
               download
