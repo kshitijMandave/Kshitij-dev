@@ -19,7 +19,7 @@ function Hero() {
             <a
               href={kshitijResume}
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
+              className="bg-white hover:bg-sky-700 rounded-2xl p-4 text-sm text-stone-800 font-medium mb-10">
               Download Resume
             </a>
 

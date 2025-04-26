@@ -23,6 +23,17 @@ function Projects() {
             >
               View Project
             </a>
+            <div className="mt-5">
+            {
+                project.technologies.map((tech, index) => {
+                    return (
+                    <span key={index} className="mr-2 rounded bg-stone-900 hover:bg-sky-700 cursor-pointer p-2 text-sm font-medium text-stone-300">
+                    {tech}
+                    </span>
+                );
+              })
+            }
+            </div>
           </div>
         ))}
       </div>

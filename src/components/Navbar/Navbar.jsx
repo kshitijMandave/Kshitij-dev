@@ -12,21 +12,25 @@ export default function Navbar() {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/kshitij-m-10779511b/"
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='LinkedIn'>
+         title='LinkedIn'
+         target='_blank'
+         rel='noopener noreferrer'
+         aria-label='LinkedIn'>
           <FaLinkedin/></a>
         <a href="https://www.instagram.com/__the_kshitij/"
+         title='Instagram'
          target='_blank'
          rel='noopener noreferrer'
          aria-label='Instagram'>
           <FaInstagram/></a>
         <a href="https://github.com/kshitijMandave"
+         title='Github'
          target='_blank'
          rel='noopener noreferrer'
          aria-label='Github'>
           <FaGithub/></a>
         <a href="https://x.com/_the_kshitij"
+         title='XTwitter'
          target='_blank'
          rel='noopener noreferrer'
          aria-label='XTwitter'>
