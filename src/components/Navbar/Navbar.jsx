@@ -16,25 +16,25 @@ export default function Navbar() {
          target='_blank'
          rel='noopener noreferrer'
          aria-label='LinkedIn'>
-          <FaLinkedin/></a>
+          <FaLinkedin className='text-white hover:text-sky-700 transition-all duration-300'/></a>
         <a href="https://www.instagram.com/__the_kshitij/"
          title='Instagram'
          target='_blank'
          rel='noopener noreferrer'
          aria-label='Instagram'>
-          <FaInstagram/></a>
+          <FaInstagram className='text-white hover:text-sky-700 transition-all duration-300'/></a>
         <a href="https://github.com/kshitijMandave"
          title='Github'
          target='_blank'
          rel='noopener noreferrer'
          aria-label='Github'>
-          <FaGithub/></a>
+          <FaGithub className='text-white hover:text-sky-700 transition-all duration-300'/></a>
         <a href="https://x.com/_the_kshitij"
          title='XTwitter'
          target='_blank'
          rel='noopener noreferrer'
          aria-label='XTwitter'>
-          <FaSquareXTwitter/></a>
+          <FaSquareXTwitter className='text-white hover:text-sky-700 transition-all duration-300'/></a>
       </div>
     </nav>
   )
