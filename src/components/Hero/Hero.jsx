@@ -44,7 +44,6 @@ function Hero() {
   return (
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-col-reverse lg:flex-row-reverse">
-
         {/* Text Section */}
         <div className="w-full lg:w-1/2">
           <motion.div
@@ -64,9 +63,12 @@ function Hero() {
             <div className="relative bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
               <TypeAnimation
                 sequence={[
-                  'Full Stack Developer', 2000,
-                  'React Developer', 2000,
-                  'JavaScript Developer', 2000,
+                  "Full Stack Developer",
+                  2000,
+                  "React Developer",
+                  2000,
+                  "JavaScript Developer",
+                  2000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -78,9 +80,7 @@ function Hero() {
             </div>
 
             {/* No motion on paragraph now */}
-            <p
-              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-center lg:text-left"
-            >
+            <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-center lg:text-left">
               Hi, I'm Kshitij, a MERN Stack developer with a BCA background. I
               have hands-on experience in building responsive web apps using
               MongoDB, Express.js, React, and Node.js. I enjoy turning ideas
@@ -115,7 +115,6 @@ function Hero() {
             />
           </div>
         </div>
-
       </div>
     </div>
   );
