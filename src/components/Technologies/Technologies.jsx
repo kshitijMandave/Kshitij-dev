@@ -8,8 +8,12 @@ import {
   SiRedux,
   SiTypescript,
   SiNextdotjs,
+  SiPostman,
+  SiNestjs,
+  SiExpress,
+  SiReactrouter,
 } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaAws } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 // Floating + Rotate + Hover Animation
@@ -109,6 +113,28 @@ function Technologies() {
         </motion.div>
 
         <motion.div
+          title="React Router"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(2.6)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <SiReactrouter className="text-7xl text-purple-400" />
+        </motion.div>
+
+        <motion.div
+          title="Redux"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(2.6)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <SiRedux className="text-7xl text-purple-400" />
+        </motion.div>
+
+        <motion.div
           title="TailwindCSS"
           className="p-4 cursor-pointer"
           variants={iconVariants(3.2)}
@@ -131,6 +157,28 @@ function Technologies() {
         </motion.div>
 
         <motion.div
+          title="siExpress"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(3.2)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <SiExpress className="text-7xl text-yellow-500" />
+        </motion.div>
+
+        <motion.div
+          title="NestJS"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(3.4)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <SiNestjs className="text-7xl text-red-700" />
+        </motion.div>
+
+        <motion.div
           title="MongoDB"
           className="p-4 cursor-pointer"
           variants={iconVariants(3.4)}
@@ -139,6 +187,28 @@ function Technologies() {
           whileHover={{ scale: 1.2, rotate: 360 }}
         >
           <SiMongodb className="text-7xl text-green-700" />
+        </motion.div>
+
+        <motion.div
+          title="aws"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(3.4)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <FaAws className="text-7xl text-yellow-500" />
+        </motion.div>
+
+        <motion.div
+          title="postman"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(3.4)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <SiPostman className="text-7xl text-red-700" />
         </motion.div>
       </div>
     </div>
