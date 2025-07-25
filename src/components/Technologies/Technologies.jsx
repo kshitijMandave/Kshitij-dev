@@ -1,6 +1,16 @@
-import { SiHtml5, SiReact, SiMongodb, SiTailwindcss, SiJavascript, SiCss3, SiRedux, SiTypescript } from 'react-icons/si';
-import { FaNodeJs } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import {
+  SiHtml5,
+  SiReact,
+  SiMongodb,
+  SiTailwindcss,
+  SiJavascript,
+  SiCss3,
+  SiRedux,
+  SiTypescript,
+  SiNextdotjs,
+} from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 // Floating + Rotate + Hover Animation
 const iconVariants = (duration) => ({
@@ -66,17 +76,6 @@ function Technologies() {
         </motion.div>
 
         <motion.div
-          title="React"
-          className="p-4 cursor-pointer"
-          variants={iconVariants(2.6)}
-          initial="initial"
-          animate="animate"
-          whileHover={{ scale: 1.2, rotate: 360 }}
-        >
-          <SiReact className="text-7xl text-cyan-400" />
-        </motion.div>
-
-        <motion.div
           title="TypeScript"
           className="p-4 cursor-pointer"
           variants={iconVariants(2.8)}
@@ -88,14 +87,25 @@ function Technologies() {
         </motion.div>
 
         <motion.div
-          title="NodeJs"
+          title="React"
           className="p-4 cursor-pointer"
-          variants={iconVariants(3)}
+          variants={iconVariants(2.6)}
           initial="initial"
           animate="animate"
           whileHover={{ scale: 1.2, rotate: 360 }}
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <SiReact className="text-7xl text-cyan-400" />
+        </motion.div>
+
+        <motion.div
+          title="Next.js"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(2.6)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <SiNextdotjs className="text-7xl text-white" />
         </motion.div>
 
         <motion.div
@@ -107,6 +117,17 @@ function Technologies() {
           whileHover={{ scale: 1.2, rotate: 360 }}
         >
           <SiTailwindcss className="text-7xl text-cyan-400" />
+        </motion.div>
+
+        <motion.div
+          title="NodeJs"
+          className="p-4 cursor-pointer"
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+        >
+          <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
 
         <motion.div
