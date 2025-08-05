@@ -120,7 +120,7 @@ function Technologies() {
           animate="animate"
           whileHover={{ scale: 1.2, rotate: 360 }}
         >
-          <SiReactrouter className="text-7xl text-purple-400" />
+          <SiReactrouter className="text-7xl text-red-400" />
         </motion.div>
 
         <motion.div
