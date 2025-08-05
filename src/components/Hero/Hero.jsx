@@ -1,4 +1,4 @@
-import kshitijProfile from "../../images/Kshitij-Img.webp";
+import kshitijProfile from "../../images/kshitij.png";
 import kshitijResume from "../../components/Hero/Kshitij_Mandave.pdf";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
@@ -107,8 +107,8 @@ function Hero() {
               src={kshitijProfile}
               alt="Kshitij Mandave"
               className="border border-stone-900 rounded-3xl"
-              height={650}
-              width={650}
+              height={400}
+              width={400}
               variants={imageVariants}
               initial="hidden"
               animate="visible"
